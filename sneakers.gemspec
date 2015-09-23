@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(/^bin/).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(/^(test|spec|features)\//)
   gem.require_paths = ['lib']
-  gem.add_dependency 'serverengine', '~> 1.5.5'
+  gem.add_dependency 'serverengine', '~> 1.5.10'
   gem.add_dependency 'bunny', '~> 2.2.0'
-  gem.add_dependency 'thread', '~> 0.1.7'
+  gem.add_dependency 'thread', '~> 0.2.2'
   gem.add_dependency 'thor'
 
   # for integration environment (see .travis.yml and integration_spec)
